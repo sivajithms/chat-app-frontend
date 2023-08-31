@@ -1,0 +1,40 @@
+.chat__list__main {
+  width: 30%;
+  background-color: rgb(185, 185, 235);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat__list__items {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: white;
+}
+
+.chat__list__items__profile__img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.chat__list__items__details {
+  flex: 1;
+  border-bottom: 1px solid #e9edef;
+}
+
+.chat__list__items__title {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.chat__list__items__title h5,
+.chat__list__items__title h6 {
+  margin: 0;
+}
