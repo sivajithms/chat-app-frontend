@@ -3,11 +3,13 @@ import "./ChatList.css";
 import ChatNav from "../ChatNav/ChatNav";
 import ChatListItems from "./ChatListItems";
 
-const ChatList = () => {
+const ChatList = ({setUser}) => {
   return (
     <div className="chat__list__main">
       <ChatNav />
-      <ChatListItems />
+      <div className="chat__list__items__area">
+        <ChatListItems setUser={setUser}/>
+      </div>
     </div>
   );
 };

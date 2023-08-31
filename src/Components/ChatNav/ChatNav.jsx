@@ -13,6 +13,7 @@ const ChatNav = (props) => {
             alt=""
           />
         </div>
+        {props.name && (<p >{props.name}</p>)}
         <div className="nav__menu">
           {props.isContent ? "" : <FontAwesomeIcon icon={faComment} />}
           <FontAwesomeIcon icon={faBars} />
@@ -22,7 +23,7 @@ const ChatNav = (props) => {
         ""
       ) : (
         <div className="nav__search__body">
-          <div className="nav__search">search or start new chat</div>
+          <input className="nav__search" placeholder="search or start new chat" />
         </div>
       )}
     </>

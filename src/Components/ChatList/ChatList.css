@@ -1,6 +1,6 @@
 .chat__list__main {
   width: 30%;
-  background-color: rgb(185, 185, 235);
+  background-color: #f0f2f5;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -14,6 +14,7 @@
   padding-left: 10px;
   padding-right: 10px;
   background-color: white;
+  cursor: pointer;
 }
 
 .chat__list__items__profile__img {
@@ -37,4 +38,8 @@
 .chat__list__items__title h5,
 .chat__list__items__title h6 {
   margin: 0;
+}
+
+.chat__list__items__area{
+    overflow: scroll;
 }
