@@ -1,9 +1,11 @@
-import React, { useState } from "react";
+import React, { useEffect } from "react";
 import "./UserDetails.css";
 
-const UserDetails = ({ user }) => {
-  const [isVisible, setIsVisible] = useState(true);
+const UserDetails = ({ user,setIsVisible,isVisible }) => {
 
+  useEffect(()=>{
+    setIsVisible(true)
+  },[])
   function handleClose() {
     setIsVisible(false);
   }

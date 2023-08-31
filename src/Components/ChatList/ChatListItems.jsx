@@ -11,7 +11,7 @@ const ChatListItems = ({setUser}) => {
             <div className="chat__list__items__profile__img">
               <img
                 src={obj.logo}
-                alt="profile"
+                alt="profile" 
                 srcset=""
               />
             </div>

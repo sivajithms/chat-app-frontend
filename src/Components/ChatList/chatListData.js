@@ -1,69 +1,55 @@
 const data = [
   {
-    logo: "https://pps.whatsapp.net/v/t61.24694-24/344724134_259233253275818_744285044286412012_n.jpg?stp=dst-jpg_s96x96&ccb=11-4&oh=01_AdSMle6rebhiUjD_ysb3lE-6idHTl88cxpgPz_Ia-M55aQ&oe=64FD24F4&_nc_cat=105",
+    logo: "https://picsum.photos/200/300?random=1",
     name: "Sivajith M S",
     date: "23/33/3333",
   },
   {
-    logo: "https://pps.whatsapp.net/v/t61.24694-24/344724134_259233253275818_744285044286412012_n.jpg?stp=dst-jpg_s96x96&ccb=11-4&oh=01_AdSMle6rebhiUjD_ysb3lE-6idHTl88cxpgPz_Ia-M55aQ&oe=64FD24F4&_nc_cat=105",
-    name: "alex",
+    logo: "https://picsum.photos/200/300?random=2",
+    name: "Alex",
     date: "23/33/3333",
   },
   {
-    logo: "https://pps.whatsapp.net/v/t61.24694-24/344724134_259233253275818_744285044286412012_n.jpg?stp=dst-jpg_s96x96&ccb=11-4&oh=01_AdSMle6rebhiUjD_ysb3lE-6idHTl88cxpgPz_Ia-M55aQ&oe=64FD24F4&_nc_cat=105",
+    logo: "https://picsum.photos/200/300?random=3",
     name: "Maria",
     date: "23/33/3333",
   },
   {
-    logo: "https://pps.whatsapp.net/v/t61.24694-24/344724134_259233253275818_744285044286412012_n.jpg?stp=dst-jpg_s96x96&ccb=11-4&oh=01_AdSMle6rebhiUjD_ysb3lE-6idHTl88cxpgPz_Ia-M55aQ&oe=64FD24F4&_nc_cat=105",
-    name: "Sivajith M S",
+    logo: "https://picsum.photos/200/300?random=4",
+    name: "John",
     date: "23/33/3333",
   },
   {
-    logo: "https://pps.whatsapp.net/v/t61.24694-24/344724134_259233253275818_744285044286412012_n.jpg?stp=dst-jpg_s96x96&ccb=11-4&oh=01_AdSMle6rebhiUjD_ysb3lE-6idHTl88cxpgPz_Ia-M55aQ&oe=64FD24F4&_nc_cat=105",
-    name: "Sivajith M S",
+    logo: "https://picsum.photos/200/300?random=5",
+    name: "Emily",
     date: "23/33/3333",
   },
   {
-    logo: "https://pps.whatsapp.net/v/t61.24694-24/344724134_259233253275818_744285044286412012_n.jpg?stp=dst-jpg_s96x96&ccb=11-4&oh=01_AdSMle6rebhiUjD_ysb3lE-6idHTl88cxpgPz_Ia-M55aQ&oe=64FD24F4&_nc_cat=105",
-    name: "Sivajith M S",
+    logo: "https://picsum.photos/200/300?random=6",
+    name: "Michael",
     date: "23/33/3333",
   },
   {
-    logo: "https://pps.whatsapp.net/v/t61.24694-24/344724134_259233253275818_744285044286412012_n.jpg?stp=dst-jpg_s96x96&ccb=11-4&oh=01_AdSMle6rebhiUjD_ysb3lE-6idHTl88cxpgPz_Ia-M55aQ&oe=64FD24F4&_nc_cat=105",
-    name: "Sivajith M S",
+    logo: "https://picsum.photos/200/300?random=7",
+    name: "Sophia",
     date: "23/33/3333",
   },
   {
-    logo: "https://pps.whatsapp.net/v/t61.24694-24/344724134_259233253275818_744285044286412012_n.jpg?stp=dst-jpg_s96x96&ccb=11-4&oh=01_AdSMle6rebhiUjD_ysb3lE-6idHTl88cxpgPz_Ia-M55aQ&oe=64FD24F4&_nc_cat=105",
-    name: "Sivajith M S",
+    logo: "https://picsum.photos/200/300?random=8",
+    name: "David",
     date: "23/33/3333",
   },
   {
-    logo: "https://pps.whatsapp.net/v/t61.24694-24/344724134_259233253275818_744285044286412012_n.jpg?stp=dst-jpg_s96x96&ccb=11-4&oh=01_AdSMle6rebhiUjD_ysb3lE-6idHTl88cxpgPz_Ia-M55aQ&oe=64FD24F4&_nc_cat=105",
-    name: "Sivajith M S",
+    logo: "https://picsum.photos/200/300?random=9",
+    name: "Olivia",
     date: "23/33/3333",
   },
   {
-    logo: "https://pps.whatsapp.net/v/t61.24694-24/344724134_259233253275818_744285044286412012_n.jpg?stp=dst-jpg_s96x96&ccb=11-4&oh=01_AdSMle6rebhiUjD_ysb3lE-6idHTl88cxpgPz_Ia-M55aQ&oe=64FD24F4&_nc_cat=105",
-    name: "Sivajith M S",
+    logo: "https://picsum.photos/200/300?random=10",
+    name: "Liam",
     date: "23/33/3333",
   },
-  {
-    logo: "https://pps.whatsapp.net/v/t61.24694-24/344724134_259233253275818_744285044286412012_n.jpg?stp=dst-jpg_s96x96&ccb=11-4&oh=01_AdSMle6rebhiUjD_ysb3lE-6idHTl88cxpgPz_Ia-M55aQ&oe=64FD24F4&_nc_cat=105",
-    name: "Sivajith M S",
-    date: "23/33/3333",
-  },
-  {
-    logo: "https://pps.whatsapp.net/v/t61.24694-24/344724134_259233253275818_744285044286412012_n.jpg?stp=dst-jpg_s96x96&ccb=11-4&oh=01_AdSMle6rebhiUjD_ysb3lE-6idHTl88cxpgPz_Ia-M55aQ&oe=64FD24F4&_nc_cat=105",
-    name: "Sivajith M S",
-    date: "23/33/3333",
-  },
-  {
-    logo: "https://pps.whatsapp.net/v/t61.24694-24/344724134_259233253275818_744285044286412012_n.jpg?stp=dst-jpg_s96x96&ccb=11-4&oh=01_AdSMle6rebhiUjD_ysb3lE-6idHTl88cxpgPz_Ia-M55aQ&oe=64FD24F4&_nc_cat=105",
-    name: "Sivajith M S",
-    date: "23/33/3333",
-  },
+  // Add more data entries with unique logo URLs...
 ];
 
 export default data;

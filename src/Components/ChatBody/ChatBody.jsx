@@ -11,9 +11,7 @@ const ChatBody = () => {
     <>
     <div className='chatbody__main'>
         <ChatList setUser={setUser}/>
-        <ChatContent user={user}/>
-        {user && <UserDetails user={user}/>}
-        
+        {user && <ChatContent user={user}/>}        
     </div>
     </>
   )
