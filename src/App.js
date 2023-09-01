@@ -4,6 +4,11 @@ import ChatBody from "./Components/ChatBody/ChatBody";
 import { Route, Routes } from "react-router-dom";
 import Login from "./Components/Auth/Login";
 import SignUp from "./Components/Auth/Signup";
+import axios from "axios";
+
+// axios settings
+axios.defaults.baseURL = 'http://localhost:5000';
+axios.defaults.params = {};
 
 const App = () => {
   return (

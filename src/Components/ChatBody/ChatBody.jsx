@@ -1,17 +1,41 @@
-import React, { useState } from 'react'
+import React, { useEffect } from 'react'
 import './ChatBody.css'
 import ChatList from '../ChatList/ChatList'
 import ChatContent from '../ChatContent/ChatContent'
-import UserDetails from '../UserDetails/UserDetails'
+// import UserDetails from '../UserDetails/UserDetails'
+import { useDispatch, useSelector } from "react-redux";
+import axios from 'axios';
+import { setAllUsers } from '../../Redux/features/allUsers/allUsersSlice';
+import { useNavigate } from 'react-router-dom';
 
 const ChatBody = () => {
-  const [user, setUser] = useState()
-  // console.log(user)
+  const chatMate = useSelector((state) => state.chatMate.data);
+  const user = useSelector((state)=>state.user.data.user)
+  const dispatch = useDispatch();
+
+
+  const navigate = useNavigate() 
+
+  useEffect(() => {
+    if(!user){
+      navigate('/login')
+    }
+    const apiUrl = "/users/getAll";
+
+    axios.get(apiUrl)
+      .then((response) => {
+        dispatch(setAllUsers(response.data))
+      })
+      .catch((error) => {
+        console.error("Error fetching data:", error);
+      });
+  }, [dispatch]);
+
   return (
     <>
     <div className='chatbody__main'>
-        <ChatList setUser={setUser}/>
-        {user && <ChatContent user={user}/>}        
+        <ChatList />
+        {chatMate.userName && <ChatContent chatMate={chatMate}/>}        
     </div>
     </>
   )

@@ -33,15 +33,26 @@
 
 
 
-.user__profile__image{
-    height: auto;
+.user__profile__image {
     width: 50%;
+    padding-bottom: 50%; /* Set the padding-bottom to 50% to make the height the same as the width */
+    position: relative;
     margin: auto;
+    overflow: hidden;
 }
 
+.user__profile__image img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
 .user__about{
-    height: 100px;
+    height: auto;
     background-color: white;
+    padding-left: 10px;
 }
 .fas{
     cursor: pointer;

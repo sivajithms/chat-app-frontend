@@ -1,11 +1,11 @@
 import React, { useEffect } from "react";
 import "./UserDetails.css";
 
-const UserDetails = ({ user,setIsVisible,isVisible }) => {
+const UserDetails = ({ chatMate,setIsVisible,isVisible }) => {
 
   useEffect(()=>{
     setIsVisible(true)
-  },[])
+  },[setIsVisible])
   function handleClose() {
     setIsVisible(false);
   }
@@ -22,14 +22,14 @@ const UserDetails = ({ user,setIsVisible,isVisible }) => {
       </div>
       <div className="user__profile__details">
         <div className="user__profile__image">
-          <img src={user.logo} alt="" />
+          <img src={chatMate.profilePic} alt="" />
         </div>
-        <h3>{user.name}</h3>
-        <h4>9744496316</h4>
+        <h3>{chatMate.userName}</h3>
+        <h4>{chatMate.phoneNumber}</h4>
       </div>
       <div className="user__about">
         <h5>About</h5>
-        <h4>Urgent calls only</h4>
+        <h4>{chatMate.about}</h4>
       </div>
     </div>
   );
