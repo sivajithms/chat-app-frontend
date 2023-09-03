@@ -35,7 +35,7 @@ const ChatBody = () => {
     <>
     <div className='chatbody__main'>
         <ChatList />
-        {chatMate.userName && <ChatContent chatMate={chatMate}/>}        
+        {chatMate.userName && <ChatContent />}        
     </div>
     </>
   )
